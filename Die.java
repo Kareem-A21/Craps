@@ -7,7 +7,7 @@
  */
 public class Die
 {
-    // instance variables - replace the example below with your own
+    // instance variables 
     private int dice1;
     private int dice2;
 
@@ -21,16 +21,19 @@ public class Die
     }
 
     /**
-     * An example of a method - replace this comment with your own
+     * rolls dice
      *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
+     * 
+     * 
      */
     public void rollDice()
     {
         dice1 = ((int)(Math.random() * 6) + 1);
         dice2 = ((int)(Math.random() * 6) + 1);
     }
+    /**
+     * @return sum of dice
+     */
     public int getResult()
     {
         return (dice1 + dice2);
