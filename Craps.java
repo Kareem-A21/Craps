@@ -86,3 +86,19 @@ public class Craps
 
 
 }
+
+
+/* 
+
+COMMENTS FROM THE INSTRUCTOR:
+
+This is a solid version of the game, Kareem, and very cleanly coded.
+You should feel free to break this up into a few smaller static methods
+to make it even easier to read through. But the gameplay is perfect, and
+you did a nice job of implementing the default (Y/n) feature as required.
+Outstanding!
+
+SCORE: 15/15
+
+*/
+
